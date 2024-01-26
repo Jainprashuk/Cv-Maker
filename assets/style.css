@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font: size 1px;
+}
+.cv-container {
+    width: 21cm;
+    height: 29.7cm;
+    margin: 1cm auto;
+    border: 1px solid #000; /* Black border around the entire CV */
+    
+}
+
+.cv-upper {
+    display: flex;
+    justify-content:space-evenly; 
+    align-items: center;
+    padding: 20px;
+    height: 4.5cm;
+    border-bottom: 1px solid #000; /* Black border between upper and lower parts */
+    background-color: #27406a !important;   
+}
+.cv-upper h1, p{
+    color: rgb(188, 157, 100);
+}
+
+.left .photo {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.left .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.center {
+    flex: 1;
+    text-align: center;
+}
+
+.right {
+    flex: 1;
+    margin-right: -150px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-item {
+    display: flex;
+    margin: -9px 0;
+    align-items: center;
+}
+
+.contact-item img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.cv-lower {
+    display: flex;
+    padding: 25px;
+    border-top: 1px solid #000; /* Black border at the top of the lower part */
+}
+.cv-lower p{
+    color: black;
+    font-size: 14px;
+}
+.cv-lower h3{
+    color: rgb(188, 157, 100);
+}
+.cv-lower .left {
+    flex: 0.5;
+}
+.cv-lower .left p {
+    padding-right:30px;
+}
+.shorten{
+    width:65%
+}
+.cv-lower  .right{
+    flex: 0.6;
+    margin-right: 10px;
+    margin-left:-110px
+}
+.vertical-line {
+    border-left: 1px solid rgb(188, 157, 100); /* Vertical partition line between left and right */
+    margin-right: 150px;
+    margin-left: -120px;
+    z-index: -1;
+}
+.horizontal-line{
+    position: relative;
+    width: 70%;
+    margin-left:-5px;
+    margin-bottom:5px;
+    border-top: 1px solid rgb(188, 157, 100);
+}
+.horizontal-lineR{
+    position: relative;
+    width: 95%;
+    margin-left:-5px;
+    margin-bottom:5px;
+    border-top: 1px solid rgb(188, 157, 100);
+}
+.cv-lower  .right-content {
+    padding-left: 20px;
+    
+}
+.bt{
+    margin:10px 30% 10px 35%;
+}
+button{
+    width: 500px;
+    height: 70px;
+    color: aliceblue;
+    font-weight: bolder;
+    border-radius: 20px;
+    background-color: #494da9;
+}
